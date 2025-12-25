@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  crossorigin="anonymous"
-/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" />
+
+
+
 
   <title>Saatvika – Body of Emotions | Dr. Dimple Kaur</title>
 
   <style>
     :root {
-      --primary: #6a1b3d;      /* Deep maroon */
-      --secondary: #f6f1ea;    /* Ivory */
-      --accent: #c07a2d;      /* Classical gold */
+      --primary: #6a1b3d;
+      /* Deep maroon */
+      --secondary: #f6f1ea;
+      /* Ivory */
+      --accent: #c07a2d;
+      /* Classical gold */
       --dark: #2b1c1c;
       --light: #ffffff;
       --indigo: #2e294e;
@@ -41,8 +45,8 @@
       width: 100%;
       top: 0;
       z-index: 1000;
-      background: rgba(255,255,255,0.95);
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     }
 
     nav {
@@ -61,7 +65,10 @@
       letter-spacing: 1px;
     }
 
-    .logo span{font-weight: normal; color: #333333;}
+    .logo span {
+      font-weight: normal;
+      color: #333333;
+    }
 
     .nav-links {
       display: flex;
@@ -88,80 +95,79 @@
       cursor: pointer;
     }
 
-/* FULL WIDTH HERO - CLEAN FIX */
-.hero {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+    /* FULL WIDTH HERO - CLEAN FIX */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
 
-  overflow: hidden;
-  color: white;
-}
+      overflow: hidden;
+      color: white;
+    }
 
-/* Video Background */
-.hero video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-}
+    /* Video Background */
+    .hero video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+    }
 
-/* Overlay */
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    rgba(46, 41, 78, 0.7),
-    rgba(106, 27, 61, 0.85)
-  );
-  z-index: -1;
-}
+    /* Overlay */
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(rgba(46, 41, 78, 0.7),
+          rgba(106, 27, 61, 0.85));
+      z-index: -1;
+    }
 
-/* Hero Content */
-.hero-content {
-  max-width: 900px;
-  padding: 1.5rem;
-}
+    /* Hero Content */
+    .hero-content {
+      max-width: 900px;
+      padding: 1.5rem;
+    }
 
-.hero-content h1 {
-  font-size: 3.2rem;
-  margin-bottom: 1rem;
-}
+    .hero-content h1 {
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+    }
 
-.hero-content p {
-  font-size: 1.15rem;
-  margin-bottom: 2rem;
-}
+    .hero-content p {
+      font-size: 1.15rem;
+      margin-bottom: 2rem;
+    }
 
-/* HERO CTA BUTTON */
-.hero-content a {
-  display: inline-block;
-  background: var(--accent);
-  color: #ffffff;
-  padding: 0.9rem 2.4rem;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  transition: all 0.3s ease;
-}
+    /* HERO CTA BUTTON */
+    .hero-content a {
+      display: inline-block;
+      background: var(--accent);
+      color: #ffffff;
+      padding: 0.9rem 2.4rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+    }
 
-/* Hover effect */
-.hero-content a:hover {
-  background: #a86422; /* slightly darker gold */
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-}
+    /* Hover effect */
+    .hero-content a:hover {
+      background: #a86422;
+      /* slightly darker gold */
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    }
 
 
 
@@ -182,8 +188,8 @@
 
     /* DANCE HEALING */
     .dance-healing {
-        background: linear-gradient(135deg, var(--primary), var(--indigo));
-  color: white;
+      background: linear-gradient(135deg, var(--primary), var(--indigo));
+      color: white;
       border-radius: 28px;
       padding: 4rem;
       display: grid;
@@ -203,26 +209,90 @@
       margin-bottom: 1rem;
     }
 
+    /* TESTIMONIAL SECTION */
+    #testimonials {
+      padding: 6rem 1.5rem;
+      text-align: center;
+    }
+
+    #testimonials h2 {
+      color: var(--primary);
+      font-size: 2.3rem;
+      margin-bottom: 3rem;
+    }
+
+    /* Wrapper */
+    .testimonial-wrapper {
+      overflow: hidden;
+      max-width: 1100px;
+      margin: auto;
+      position: relative;
+    }
+
+    /* Track */
+    .testimonial-track {
+      display: flex;
+      gap: 2rem;
+      transition: transform 0.8s ease-in-out;
+    }
+
+    /* Cards */
+    .testimonial-card {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      background: white;
+      padding: 2rem;
+      border-radius: 22px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      text-align: left;
+    }
+
+    .testimonial-card p {
+      font-style: italic;
+      color: #444;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .testimonial-card h4 {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    /* MOBILE VIEW – ONE CARD ONLY */
+    @media (max-width: 768px) {
+      .testimonial-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      .testimonial-wrapper {
+        padding: 0 1rem;
+      }
+    }
+
+
+
     /* WORKSHOPS */
 
     /* Workshop Section Intro */
-.workshop-intro {
-  max-width: 820px;
-  margin: 0 auto 3.5rem;
-  text-align: center;
-  font-size: 1.05rem;
-  color: #4a3a3a;
-  line-height: 1.8;
-}
+    .workshop-intro {
+      max-width: 820px;
+      margin: 0 auto 3.5rem;
+      text-align: center;
+      font-size: 1.05rem;
+      color: #4a3a3a;
+      line-height: 1.8;
+    }
 
-.workshop-intro strong {
-  color: var(--primary);
-  font-weight: 600;
-}
+    .workshop-intro strong {
+      color: var(--primary);
+      font-weight: 600;
+    }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
       gap: 2rem;
     }
 
@@ -231,7 +301,7 @@
       padding: 2rem;
       border-radius: 20px;
       text-align: center;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
     }
 
     .card h3 {
@@ -240,49 +310,50 @@
     }
 
     /* Workshop Font Icons */
-.card .icon {
-  font-size: 2.2rem;
-  color: var(--primary);
-  margin-bottom: 1rem;
-  display: inline-block;
-}
+    .card .icon {
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
 
-.card:hover .icon {
-  color: var(--accent);
-}
+    .card:hover .icon {
+      color: var(--accent);
+    }
 
 
     .pricing {
-  background: linear-gradient(135deg, var(--primary), var(--indigo));
-  color: white;
-  border-radius: 30px;
-  padding: 3.5rem 2rem;
+      background: linear-gradient(135deg, var(--primary), var(--indigo));
+      color: white;
+      border-radius: 30px;
+      padding: 3.5rem 2rem;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem; /* 🔑 FIX */
-  text-align: center;
-}
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      /* 🔑 FIX */
+      text-align: center;
+    }
 
-.pricing h3 {
-  font-size: 2rem;
-}
+    .pricing h3 {
+      font-size: 2rem;
+    }
 
-.pricing p {
-  max-width: 600px;
-  line-height: 1.6;
-}
+    .pricing p {
+      max-width: 600px;
+      line-height: 1.6;
+    }
 
-.pricing a {
-  background: var(--accent);
-  color: white;
-  padding: 0.9rem 2.4rem;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 600;
-  margin-top: 0.5rem;
-}
+    .pricing a {
+      background: var(--accent);
+      color: white;
+      padding: 0.9rem 2.4rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
 
 
     /* ABOUT */
@@ -290,7 +361,7 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
       gap: 2.5rem;
-      align-items: center;
+      align-items: self-start;
     }
 
     .about img {
@@ -307,7 +378,10 @@
 
     /* MOBILE */
     @media (max-width: 768px) {
-        section{padding: 4rem 1.5rem;}
+      section {
+        padding: 4rem 1.5rem;
+      }
+
       .nav-links {
         position: absolute;
         top: 70px;
@@ -342,149 +416,350 @@
 
 <body>
 
-<header>
-  <nav>
-    <div class="logo">Saatvika - <span>Body of Emotions</span></div>
-    <div class="hamburger" onclick="toggleMenu()">☰</div>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#dance-healing">Dance Healing</a></li>
-      <li><a href="#workshops">Workshops</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#register" class="cta">Register</a></li>
-    </ul>
-  </nav>
-</header>
+  <header>
+    <nav>
+      <div class="logo">Saatvika - <span>Body of Emotions</span></div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#dance-healing">Dance Movement Healing</a></li>
+        <li><a href="#workshops">Workshops</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#register" class="cta">Register</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section class="hero" id="register" style="max-width: 100%;">
-  <video autoplay muted loop playsinline>
-    <source src="images/dance.mp4" type="video/mp4" />
-  </video>
+  <section class="hero" id="register" style="max-width: 100%;">
+    <video autoplay muted loop playsinline>
+      <source src="images/IMG_1349.MOV" type="video/mp4" />
+    </video>
 
-  <div class="hero-overlay"></div>
+    <div class="hero-overlay"></div>
 
-  <div class="hero-content">
-    <h1>Saatvika – Body of Emotions</h1>
-    <p>
-      A 6-month healing journey using Indian classical movement
-      to release emotions stored in the body.
-    </p>
-    <a href="#">Register Now</a>
-  </div>
-</section>
-
-
-
-<section id="dance-healing">
-  <div class="dance-healing">
-    <img src="images/dance-mudra.png" alt="Indian classical dance mudra">
-    <div>
-      <h3>What is Dance Healing?</h3>
+    <div class="hero-content">
+      <h1>Saatvika – Body of Emotions</h1>
       <p>
-        Dance Healing is a somatic practice where classical Indian movements,
-        rhythm, breath, and emotional awareness work together to release stored
-        emotions from the body.
+        A 6-month healing journey using Indian classical movement
+        to release emotions stored in the body.
       </p>
-      <p>&nbsp</p>
+      <a href="#">Register Now</a>
+    </div>
+  </section>
+
+
+
+  <section id="dance-healing">
+    <div class="dance-healing">
+      <img src="images/dance-mudra.png" alt="Indian classical dance mudra">
+      <div>
+        <h3>What is Dance Movement Healing?</h3>
+        <p>
+          Dance Movement Healing is a somatic practice where classical Indian movements,
+          rhythm, breath, and emotional awareness work together to release stored
+          emotions from the body.
+        </p>
+        <p>&nbsp</p>
+        <p>
+          Rooted in ancient wisdom, this approach allows emotions such as fear,
+          grief, anxiety, and trauma to gently surface and dissolve—without verbal
+          processing alone. The body becomes the pathway to healing.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="testimonials">
+    <h2>What Participants Are Saying</h2>
+
+    <div class="testimonial-wrapper">
+      <div class="testimonial-track" id="testimonialTrack">
+
+        <div class="testimonial-card">
+          <p>
+            I understood that changing the body impacts the mind body spirit. I think I needed to connect this with
+            insights relevant to therapy and actually this has opened the door to that thought/exploration
+          </p>
+          <h4>— Sameer</h4>
+          <div class="designation">Student</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            This workshop encouraged and motivated me towards higher creativity in thinking and doing anything. I came
+            to
+            realise my own value.Who am I? What am I doing with my life.It helped me to understand that nothing is
+            impossible in this life, we just need a little courage and confidence on ourselves to make a first move
+            towards our GOAL. Dear Dimple Maam, ...
+          </p>
+          <h4>— Divya</h4>
+          <div class="designation">Student</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            I really liked this workshop. I can feel a difference in a lot of my habits and thoughts and I am really
+            happy that there is a positive change in me. I want maam comes again and this time for 15-20 days so that we
+            can learn a lot more. Thank you maam for conducting and organizing this workshop. we all will miss this time
+            from tomorrow but whatever we ...
+          </p>
+          <h4>— Tuhina</h4>
+          <div class="designation">Student</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            That our body speaks a lot and it speaks what words cannot. Another key takaway was that I am not just
+            enough, but I am good enough.This has had a tremendous impact on my self-esteem.
+          </p>
+          <h4>— Mukta</h4>
+          <div class="designation">Student</div>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            This workshop really helped me get out of my shell and it gave me a chance to love myself and become more
+            free. It gave me the voice I never knew I had. I'll always love Dimple maam for helping us all out.
+          </p>
+          <h4>— Tanaya</h4>
+          <div class="designation">Student</div>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            I have become more confident and is equipped to tackle the problems easily. Respect time is what I learnt
+            today & how to present myself more confidently.
+          </p>
+          <h4>— Rajshree</h4>
+          <div class="designation">Student</div>
+        </div>
+        <div class="testimonial-card">
+          <p>
+            I am so relaxed now that I could release all my hurt feelings and start fresh. I realised that I do
+            matter, maybe not in someone else life but in my life I do matter.
+          </p>
+          <h4>— Rutuja</h4>
+          <div class="designation">Student</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            This workshop provided me an opporunity to be myself. To help to analyse some of barriers in my life and how
+            to overcome them. First time in my life I Danced. The activities removed my fear to dance.
+          </p>
+          <h4>— Shilpa</h4>
+          <div class="designation">Student</div>
+        </div>
+
+
+        <div class="testimonial-card">
+          <p>
+            This workshop provided me an opporunity to be myself. To help to analyse some of barriers in my life and how
+            to overcome them. First time in my life I Danced. The activities removed my fear to dance.
+          </p>
+          <h4>— Ravindra</h4>
+          <div class="designation">Student</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            Through this workshop I got importance of self-love. I can overcome my fears.I feel very happy. I feel my
+            body
+            and mind together.Its just awesome and please inform me of any other workshops. I am waiting for that. This
+            is
+            my another world.I really enjoyed.
+          </p>
+          <h4>— Tharshahini</h4>
+          <div class="designation">Student</div>
+        </div>
+
+
+        <div class="testimonial-card">
+          <p>
+            Be yourself, you are good enough. Be open to your emotions, be accepting.Manage your time constructively,
+            love
+            life, live fullest. Dont be afraid of your own decisions and likes and dislikes. Make out time to notice
+            your
+            own emotions & behavior
+          </p>
+          <h4>— Akanksha</h4>
+          <div class="designation">Student</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            Very helpful and motivating. This workshop has helped me perceive matters in a deeper & efficient
+            manner. There is a positive impact on me which will help me deal with my life in a better way. It has
+            broadened my vision and outlook towards both my inner and outside world.
+          </p>
+          <h4>— Rakshita</h4>
+          <div class="designation">Student</div>
+        </div>
+
+
+        <div class="testimonial-card">
+          <p>
+            I understood that changing the body impacts the mind body spirit. I think I needed to connect this with
+            insights relevant to therapy and actually this has opened the door to that thought/exploration
+          </p>
+          <h4>— Vidya</h4>
+          <div class="designation">Student</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="workshops">
+    <h2>Workshop Modules</h2>
+
+    <!-- Intro Text -->
+    <div class="workshop-intro">
       <p>
-        Rooted in ancient wisdom, this approach allows emotions such as fear,
-        grief, anxiety, and trauma to gently surface and dissolve—without verbal
-        processing alone. The body becomes the pathway to healing.
+        <strong>SATVIKA – BODY OF EMOTIONS</strong> is a 6-month healing journey
+        structured as <strong>six focused workshops</strong>, each spanning
+        <strong>four weeks</strong>.
+      </p>
+      <p>
+        Every module gently addresses a core emotional pattern stored in the body,
+        using movement, awareness, and guided practices to create sustainable
+        emotional balance and resilience.
       </p>
     </div>
-  </div>
-</section>
 
-<section id="workshops">
-  <h2>Workshop Modules</h2>
+    <!-- Workshop Cards -->
+    <div class="grid">
 
-  <!-- Intro Text -->
-  <div class="workshop-intro">
-    <p>
-      <strong>SATVIKA – BODY OF EMOTIONS</strong> is a 6-month healing journey
-      structured as <strong>six focused workshops</strong>, each spanning
-      <strong>four weeks</strong>.
-    </p>
-    <p>
-      Every module gently addresses a core emotional pattern stored in the body,
-      using movement, awareness, and guided practices to create sustainable
-      emotional balance and resilience.
-    </p>
-  </div>
+      <div class="card">
+        <i class="icon fa-solid fa-brain"></i>
+        <h3>Healing Anxiety</h3>
+        <p>Restore calm through embodied awareness.</p>
+      </div>
 
-  <!-- Workshop Cards -->
-  <div class="grid">
+      <div class="card">
+        <i class="icon fa-solid fa-sun"></i>
+        <h3>Depression Recovery</h3>
+        <p>Reconnect with vitality and inner rhythm.</p>
+      </div>
 
-    <div class="card">
-      <i class="icon fa-solid fa-brain"></i>
-      <h3>Healing Anxiety</h3>
-      <p>Restore calm through embodied awareness.</p>
+      <div class="card">
+        <i class="icon fa-solid fa-heart"></i>
+        <h3>Relationship Issues</h3>
+        <p>Heal emotional imprints through movement.</p>
+      </div>
+
+      <div class="card">
+        <i class="icon fa-solid fa-dove"></i>
+        <h3>Fear & Phobia</h3>
+        <p>Transform fear stored in the nervous system.</p>
+      </div>
+
+      <div class="card">
+        <i class="icon fa-solid fa-sliders"></i>
+        <h3>Emotional Regulation</h3>
+        <p>Learn to respond, not react.</p>
+      </div>
+
+      <div class="card">
+        <i class="icon fa-solid fa-hands-holding-circle"></i>
+        <h3>Trauma Recovery</h3>
+        <p>Gentle, body-led trauma integration.</p>
+      </div>
+
     </div>
+  </section>
 
-    <div class="card">
-      <i class="icon fa-solid fa-sun"></i>
-      <h3>Depression Recovery</h3>
-      <p>Reconnect with vitality and inner rhythm.</p>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing">
+      <h3>6-Month Complete Healing Journey</h3>
+      <p>Live guided sessions • Movement practices • Safe community space</p>
+      <a href="#">Enroll Now</a>
     </div>
+  </section>
 
-    <div class="card">
-      <i class="icon fa-solid fa-heart"></i>
-      <h3>Relationship Issues</h3>
-      <p>Heal emotional imprints through movement.</p>
+  <section id="about">
+    <h2>About Dimple Kaur</h2>
+    <div class="about">
+      <img src="images/dimple.jpg" alt="Dr. Dimple Kaur">
+      <div>
+        <p>
+          Dimple Kaur, PhD, MS, CHt MA is the Principal of Sumangali Arts LLC, USA, founder director of IMATTER
+          Institute of Counselling and Behavior Science and Sumangali Institute of Valuable Arts (SIVA), based in New
+          Delhi, India. She has created of Applied Natya Therapy(TM) a unique system of healing based on Natya Shastra
+          for Complex Trauma. </p>
+
+        <p>An accomplished Indian classical dancer (Bharatanatyam, Vilasini Natyam and Chaau) and a practicing
+          psychotherapist, she has done pioneering work in area of mind body development, dance movement therapy and has
+          through her research brought therapeutic benefits using dance for number of physical and mental illness.</p>
+
+        <p>She has over 3000 man hours of counselling experience for both individual and groups along with over 30 years
+          learning and performing Indian classical dance.</p>
+
+        <p>The professional experience of Dr. Dimple Kaur, her great intuition, her ability to uncover the depths of the
+          human soul, which pulsates behind each human mask, allows each participant to make a significant step along
+          their individual path. Her institutes aim at preserving & promoting the cultural heritage & promoting the
+          mental well-being of people through research in arts and science. </p>
+
+        <p>As an actor, she has acted inacted in various TV serials and movies. She has directed over 20 professional
+          dance and theatre productions. Her solo shows Main Amrita, Rape Unreported, Kali Darpanam, Aatm Rati are
+          continuing their tour across India and Abroad. She is also visiting faculty for Indian Classical Dance at
+          various universities.</p>
+
+        <p>Dr. Dimple Kaur has been awarded with multiple awards and recognitions including Nritya Ratna Award, Nritya
+          Thrragai Award, Apoorva Pratibha Award, Lasya Mohini Award, National Theatre Excellency Award and Nritya
+          Kamala Mani Samman.</p>
+          <p>Dr. Dimple Kaur is a registered Somatic Dance Practioner with ISMETA</p>
+          <img src="images/ismeta_logo.jpg" width="300" height="83" style="max-width: 300px; margin-top: 24px; border-radius: 8px;"/>
+      </div>
+
     </div>
+  </section>
 
-    <div class="card">
-      <i class="icon fa-solid fa-dove"></i>
-      <h3>Fear & Phobia</h3>
-      <p>Transform fear stored in the nervous system.</p>
-    </div>
+  <footer>
+    © 2025 Saatvika • Body of Emotions
+  </footer>
 
-    <div class="card">
-      <i class="icon fa-solid fa-sliders"></i>
-      <h3>Emotional Regulation</h3>
-      <p>Learn to respond, not react.</p>
-    </div>
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
 
-    <div class="card">
-      <i class="icon fa-solid fa-hands-holding-circle"></i>
-      <h3>Trauma Recovery</h3>
-      <p>Gentle, body-led trauma integration.</p>
-    </div>
+  <script>
+    const track = document.getElementById("testimonialTrack");
+    const cards = document.querySelectorAll(".testimonial-card");
 
-  </div>
-</section>
+    let index = 0;
 
+    function getCardsPerView() {
+      return window.innerWidth <= 768 ? 1 : 3;
+    }
 
-<section id="pricing">
-  <h2>Pricing</h2>
-  <div class="pricing">
-    <h3>6-Month Complete Healing Journey</h3>
-    <p>Live guided sessions • Movement practices • Safe community space</p>
-    <a href="#">Enroll Now</a>
-  </div>
-</section>
+    function autoScrollTestimonials() {
+      const cardsPerView = getCardsPerView();
+      const maxIndex = cards.length - cardsPerView;
 
-<section id="about">
-  <h2>About Dimple Kaur</h2>
-  <div class="about">
-    <img src="images/dimple.jpg" alt="Dr. Dimple Kaur">
-    <p>
-      Dr. Dimple Kaur is a holistic emotional-wellbeing practitioner integrating
-      psychology, trauma-informed practices, and embodied movement. Saatvika is
-      her offering to help individuals heal deeply through body-based awareness.
-    </p>
-  </div>
-</section>
+      index++;
 
-<footer>
-  © 2025 Saatvika • Body of Emotions
-</footer>
+      if (index > maxIndex) {
+        index = 0;
+      }
 
-<script>
-  function toggleMenu() {
-    document.getElementById("navLinks").classList.toggle("active");
-  }
-</script>
+      const cardWidth = cards[0].offsetWidth + 32; // includes gap
+      track.style.transform = `translateX(-${index * cardWidth}px)`;
+    }
+
+    setInterval(autoScrollTestimonials, 3500);
+
+    // Reset position on resize
+    window.addEventListener("resize", () => {
+      index = 0;
+      track.style.transform = "translateX(0)";
+    });
+  </script>
 
 </body>
+
 </html>
